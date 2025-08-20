@@ -83,9 +83,9 @@ As queries desenvolvidas estão disponíveis em [`sql/sanidade.sql`](./sql/sanid
 ---
 
 📅 **Última atualização:** 20/08/2025  
-✍️ Autor: Vanthuir Maia
-📧 Email: vanmaiasf@gmail.com
-📧 Email: vanthuir.dev@gmail.com
-📞 Telefone: +55 (87) 99607-5897
-📞 Telefone: +55 (87) 98153-1743
+✍️ Autor: Vanthuir Maia  
+📧 Email: vanmaiasf@gmail.com  
+📧 Email: vanthuir.dev@gmail.com  
+📞 Telefone: +55 (87) 99607-5897  
+📞 Telefone: +55 (87) 98153-1743  
 🌐 LinkedIn: https://www.linkedin.com/in/vanthuir-maia-47767810b/
