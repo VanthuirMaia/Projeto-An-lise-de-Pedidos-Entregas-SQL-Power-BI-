@@ -10,11 +10,19 @@ Na primeira etapa, foi utilizada uma base fictícia de entregas (shipments) com 
 
 ```
 NewFase-Dados/
-│── data/                # Contém os arquivos CSV originais
-│── sql/                 # Scripts SQL (consultas de sanidade, exploração e modelagem)
-│── load_data.py         # Script Python para ingestão dos dados no PostgreSQL
+│── .venv/               # Ambiente Virtual
+│── data/                # Arquivos CSV originais
+│── notebooks/           # Jupyter Notebooks de exploração e análises
+│── pbix/                # Dashboards do Power BI
+│── sql/                 # Scripts SQL (sanidade, exploração, modelagem)
+│── docs/                # Documentação extra e diagramas (opcional)
+│── tests/               # Testes futuros de qualidade/pipelines (opcional)
+│── load_data.py         # Script Python para ingestão no PostgreSQL
 │── .env                 # Variáveis de ambiente para conexão ao banco
 │── README.md            # Documentação do projeto
+│── .gitignore           # Arquivos ignorados no repositório
+│── requirements.txt     # Dependências do projeto
+
 ```
 
 ## ✅ Etapa A — Preparação (concluída em 20/08/2025)
@@ -80,3 +88,4 @@ As queries desenvolvidas estão disponíveis em [`sql/sanidade.sql`](./sql/sanid
 📧 Email: vanthuir.dev@gmail.com
 📞 Telefone: +55 (87) 99607-5897
 📞 Telefone: +55 (87) 98153-1743
+🌐 LinkedIn: https://www.linkedin.com/in/vanthuir-maia-47767810b/
