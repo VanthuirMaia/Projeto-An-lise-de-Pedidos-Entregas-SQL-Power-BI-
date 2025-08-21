@@ -50,11 +50,24 @@ As queries desenvolvidas estão disponíveis em [`sql/sanidade.sql`](./sql/sanid
 - Estatísticas de variáveis numéricas.
 - Distribuições e agrupamentos por status, veículos e entregas.
 
-## 🚀 Próximos Passos — Etapa B (Exploração)
+## 📊 Etapa B — KPIs via SQL (em andamento)
 
-- Criação de métricas exploratórias no SQL.
-- Início da modelagem dimensional.
-- Preparação para integração com ferramentas de análise (ex: Power BI).
+Nesta fase, foram construídas queries SQL para cálculo dos principais indicadores logísticos do projeto:
+
+- **OTD (On-Time Delivery %):** percentual de entregas realizadas dentro do prazo prometido.
+- **Atraso Médio:** diferença média entre a data prometida e a data de entrega.
+- **Tempo Médio de Entrega:** tempo médio entre a expedição (ship_date) e a entrega (delivery_date).
+- **Custo por KM:** relação entre custo total e distância percorrida.
+
+Essas queries estão sendo organizadas em:
+
+📂 [`sql/kpis.sql`](./sql/kpis.sql)
+
+Atualmente, os cálculos estão estruturados **por mês**, e poderão ser adaptados para análises por:
+
+- Região
+- Transportadora
+- Tipo de Veículo
 
 ## ▶️ Como Executar
 
