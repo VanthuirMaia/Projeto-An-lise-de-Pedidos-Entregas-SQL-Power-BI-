@@ -38,3 +38,11 @@ WHERE delivery_date IS NOT NULL
 GROUP BY mes
 ORDER BY mes;
 
+-- 4. Custo por KM
+SELECT
+    DATE_TRUNC('month', order_date) AS mes,
+    ROUND(SUM(total_cost::numeric) / NULLIF(SUM(distance_km::numeric), 0), 2) AS custo_por_km
+FROM newfase.stg_dados
+WHERE orders_date IS NOTT NULL AND trim(order_date) <> ''
+GROUP BY mes
+ORDER BY mes;
